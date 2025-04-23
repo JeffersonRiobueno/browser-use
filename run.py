@@ -45,12 +45,7 @@ context = BrowserContext(
 
 
 prompt = """
-Genera una tabla comparativa en formato JSON con los 5 mejores precios del iPhone 16 en Lima, Perú, 
-considerando las siguientes especificaciones:
-- Precios en soles peruanos (PEN)
-- Tienda
-- Especificar capacidad (128GB, 256GB, etc.) y color cuando esté disponible
-- Incluir precios con y sin descuentos (si aplica)
+ Ingresa google.com.pe y busca browser-use y valida la ultima version estable
 """
 
 
