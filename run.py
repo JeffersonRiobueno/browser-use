@@ -24,10 +24,10 @@ llm = ChatGoogleGenerativeAI(model='gemini-2.0-flash', api_key=SecretStr(api_key
 # Create agent with the model
 browser = Browser(
     config=BrowserConfig(
-        headless=True,
+        headless=True,                                 # Modo Headless  
         disable_security=True,
-#        chrome_instance_path="/usr/bin/google-chrome",
-#        chrome_instance_path="/usr/bin/brave-browser",  
+#        chrome_instance_path="/usr/bin/google-chrome", # Uso de navegador Local, Si no se espeficica usa el de playwright
+#        chrome_instance_path="/usr/bin/brave-browser", # Uso de navegador Local, Si no se espeficica usa el de playwright
     )
 )
 
