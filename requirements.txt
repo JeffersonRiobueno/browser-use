@@ -1,5 +1,5 @@
-browser-use
-langchain_google_genai
-jinja2
-python-dotenv
-pydantic
+browser-use==0.1.40
+langchain-google-genai==2.1.2
+jinja2==3.1.6
+python-dotenv==1.1.0
+pydantic==2.11.2
