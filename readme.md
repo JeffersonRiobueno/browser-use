@@ -11,7 +11,6 @@ Este proyecto es una implementación personalizada de la biblioteca [browser-use
 ## Requisitos
 
 - Python 3.7 o superior.
-- [Playwright](https://playwright.dev/python/) para la automatización del navegador.
 
 ## Instalación
 
